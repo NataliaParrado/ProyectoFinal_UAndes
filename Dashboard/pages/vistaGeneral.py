@@ -4,7 +4,7 @@ import pandas as pd
 import datetime as dt
 import os
 
-st.set_page_config(page_title="Vista General", page_icon="🚥")
+st.set_page_config(page_title="Vista General", page_icon="🚥",layout="wide")
 
 st.title("Vista General")
 st.write("Contenido de prueba")
