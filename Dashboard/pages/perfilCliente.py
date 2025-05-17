@@ -3,6 +3,7 @@ import plotly.express as px
 import pandas as pd
 from datetime import date, datetime
 import altair as alt
+import os
 
 # Genera el titulo de la pagina
 st.title("Perfilado del Cliente")
