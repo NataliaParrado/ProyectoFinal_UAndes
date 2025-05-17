@@ -2,7 +2,6 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 from datetime import date, datetime
-from vistaGeneral import load_data
 import altair as alt
 
 # Genera el titulo de la pagina
@@ -13,6 +12,15 @@ if "visibility" not in st.session_state:
     st.session_state["visibility"] = 'visible'
 if "disabled" not in st.session_state:
     st.session_state["disabled"] = False
+
+# Ruta absoluta a la carpeta donde está este script
+base_path = os.path.dirname(os.path.abspath(__file__))
+# Ruta al archivo CSV en esa misma carpeta
+csv_path = os.path.join(base_path, "anomaliasDetectadas.csv")
+def load_data():
+    # Leer todas las hojas del archivo en un diccionario de DataFrames
+    datos_completos = pd.read_csv(csv_path,parse_dates=['Fecha'])
+    return datos_completos
 
 # Definir las columnas y su ancho
 col1, col2, col3 = st.columns([2, 1, 4])

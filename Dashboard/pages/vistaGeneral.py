@@ -11,7 +11,6 @@ st.write("Contenido de prueba")
 
 # Ruta absoluta a la carpeta donde está este script
 base_path = os.path.dirname(os.path.abspath(__file__))
-
 # Ruta al archivo CSV en esa misma carpeta
 csv_path = os.path.join(base_path, "anomaliasDetectadas.csv")
 
