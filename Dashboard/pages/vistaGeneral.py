@@ -2,11 +2,18 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 import datetime as dt
+import os
 
 st.set_page_config(page_title="Vista General", page_icon="🚥")
 
 st.title("Vista General")
 st.write("Contenido de prueba")
+
+# Ruta absoluta a la carpeta donde está este script
+base_path = os.path.dirname(os.path.abspath(__file__))
+
+# Ruta al archivo CSV en esa misma carpeta
+csv_path = os.path.join(base_path, "anomaliasDetectadas.csv")
 
 #############################################################################
 # Carga el archivo
@@ -17,7 +24,7 @@ st.write("Contenido de prueba")
 @st.cache_data
 def load_data():
     # Leer todas las hojas del archivo en un diccionario de DataFrames
-    datos_completos = pd.read_csv('anomaliasDetectadas.csv',parse_dates=['Fecha'])
+    datos_completos = pd.read_csv(csv_path,parse_dates=['Fecha'])
     return datos_completos
 
 # Cargar los datos
