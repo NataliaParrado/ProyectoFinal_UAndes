@@ -6,9 +6,6 @@ import os
 
 st.set_page_config(page_title="Vista General", page_icon="🚥",layout="wide")
 
-st.title("Vista General")
-st.write("Contenido de prueba")
-
 # Ruta absoluta a la carpeta donde está este script
 base_path = os.path.dirname(os.path.abspath(__file__))
 # Ruta al archivo CSV en esa misma carpeta
