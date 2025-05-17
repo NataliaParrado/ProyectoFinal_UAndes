@@ -21,7 +21,7 @@ def load_data():
     # Concatenar todas las hojas en un solo DataFrame
     # # Agregamos una columna 'Cliente' con el nombre de la hoja para identificar a cada cliente
     # datos_completos = pd.concat([df.assign(Cliente=nombre) for nombre, df in hojas.items()])
-    datos_completos = pd.read_csv(f'../anomaliasDetectadas.csv',parse_dates=['Fecha'])
+    datos_completos = pd.read_csv(f'../../anomaliasDetectadas.csv',parse_dates=['Fecha'])
     return datos_completos
 
 # Cargar los datos
