@@ -3,6 +3,11 @@ import plotly.express as px
 import pandas as pd
 import datetime as dt
 
+st.set_page_config(page_title="Vista General", page_icon="🚥")
+
+st.title("Vista General")
+st.write("Contenido de prueba")
+
 #############################################################################
 # Carga el archivo
 #############################################################################
