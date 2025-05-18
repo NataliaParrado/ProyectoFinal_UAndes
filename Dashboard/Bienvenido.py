@@ -28,7 +28,7 @@ with col3:
 
     with st.container():
         st.markdown("""
-        **ConGas IA** es una aplicación que permite a los usuarios explorar y analizar datos relacionados con el consumo de gas.  
+        **ConGas IA** es una aplicación que permite a los usuarios explorar y analizar datos relacionados con el consumo de gas de los clientes de Contugas.  
         La aplicación ofrece una interfaz intuitiva y fácil de usar, lo que facilita la navegación y la comprensión de los datos.  
         Los usuarios pueden seleccionar diferentes clientes, rangos de fechas y valores de interés para obtener información detallada sobre el consumo de gas.  
         La aplicación también incluye gráficos interactivos y visualizaciones para ayudar a los usuarios a comprender mejor los datos.  
