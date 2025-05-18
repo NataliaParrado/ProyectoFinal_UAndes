@@ -44,7 +44,7 @@ st.title("Sistema de Alertas de ConGas IA")
 col1, col2, col3 = st.columns([20, 1, 20])
 
 # Sirve como separador
-with col3:
+with col2:
     print('')
 
 with col1:
