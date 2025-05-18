@@ -17,11 +17,15 @@ with col2:
 
 with col1:
     st.image(img_path, use_container_width=True)
-    st.write("""\ ConGas IA 
-             Aplicación de análisis de datos de consumo de gas
-             Versión 1.0""")
-    st.write("Desarrollado por: Grupo ConGas")
-    st.write("Fecha: 2023-10-01")
+    st.markdown("""
+    <div style='font-size: 10px; text-align: center; color: gray;'>
+        <strong>ConGas IA</strong><br>
+        Aplicación de análisis de datos de consumo de gas<br>
+        Versión 1.0<br>
+        Desarrollado por: Grupo ConGas<br>
+        Fecha: 2023-10-01
+    </div>
+    """, unsafe_allow_html=True)
 with col3:
     st.write("Esta aplicación está diseñada para ayudar a los usuarios a explorar y analizar datos relacionados con el consumo de gas.")
     st.write("Utiliza el menú de la barra lateral para navegar entre las diferentes secciones de la aplicación.")
