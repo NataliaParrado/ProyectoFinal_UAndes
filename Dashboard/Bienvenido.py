@@ -1,5 +1,9 @@
 import streamlit as st
 import pandas as pd
+import os
+
+base_path = os.path.dirname(os.path.abspath(__file__))
+img_path = os.path.join(base_path, "image_proyectoFinal.png")
 
 st.set_page_config(page_title="ConGas IA", page_icon=":material/edit:",layout="wide")
 st.title("Bienvenido a la Aplicación de ConGas IA")
@@ -14,7 +18,7 @@ with col2:
     print('')
 
 with col1:
-    st.image("image_proyectoFinal.png", width=300)
+    st.image(img_path, width=300)
     st.write("ConGas IA")
     st.write("Aplicación de análisis de datos de consumo de gas")
     st.write("Versión 1.0")
