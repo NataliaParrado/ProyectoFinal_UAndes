@@ -18,7 +18,7 @@ with col2:
     print('')
 
 with col1:
-    st.image(img_path, caption="ConGas IA", use_column_width=True)
+    st.image(img_path, caption="ConGas IA", use_container_width=True)
     st.write("ConGas IA")
     st.write("Aplicación de análisis de datos de consumo de gas")
     st.write("Versión 1.0")
