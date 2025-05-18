@@ -17,15 +17,6 @@ with col2:
 
 with col1:
     st.image(img_path, use_container_width=True)
-    st.markdown("""
-    <div style='font-size: 10px; text-align: center; color: gray;'>
-        <strong>ConGas IA</strong><br>
-        Aplicación de análisis de datos de consumo de gas<br>
-        Versión 1.0<br>
-        Desarrollado por: Grupo ConGas<br>
-        Fecha: 2023-10-01
-    </div>
-    """, unsafe_allow_html=True)
 with col3:
     with st.container():
         st.markdown("""
@@ -43,3 +34,13 @@ with col3:
         La aplicación también incluye gráficos interactivos y visualizaciones para ayudar a los usuarios a comprender mejor los datos.  
         **ConGas IA** es una herramienta valiosa para cualquier persona interesada en el consumo de gas y su análisis.
         """)
+
+st.markdown("""
+<div style='font-size: 10px; text-align: center; color: gray;'>
+    <strong>ConGas IA</strong><br>
+    Aplicación de análisis de datos de consumo de gas<br>
+    Versión 1.0<br>
+    Desarrollado por: Grupo ConGas<br>
+    Fecha: 2023-10-01
+</div>
+""", unsafe_allow_html=True)
