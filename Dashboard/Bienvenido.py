@@ -17,8 +17,8 @@ with col2:
 
 with col1:
     st.image(img_path, use_container_width=True)
-    st.write("""ConGas IA\n
-             Aplicación de análisis de datos de consumo de gas\n
+    st.write("""ConGas IA \n
+             Aplicación de análisis de datos de consumo de gas \n
              Versión 1.0""")
     st.write("Desarrollado por: Grupo ConGas")
     st.write("Fecha: 2023-10-01")
