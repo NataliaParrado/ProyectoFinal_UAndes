@@ -27,10 +27,19 @@ with col1:
     </div>
     """, unsafe_allow_html=True)
 with col3:
-    st.write("Esta aplicación está diseñada para ayudar a los usuarios a explorar y analizar datos relacionados con el consumo de gas.")
-    st.write("Utiliza el menú de la barra lateral para navegar entre las diferentes secciones de la aplicación.")
-    st.write("ConGas IA es una aplicación que permite a los usuarios explorar y analizar datos relacionados con el consumo de gas.")
-    st.write("La aplicación ofrece una interfaz intuitiva y fácil de usar, lo que facilita la navegación y la comprensión de los datos.")
-    st.write("Los usuarios pueden seleccionar diferentes clientes, rangos de fechas y valores de interés para obtener información detallada sobre el consumo de gas.")
-    st.write("La aplicación también incluye gráficos interactivos y visualizaciones para ayudar a los usuarios a comprender mejor los datos.")
-    st.write("ConGas IA es una herramienta valiosa para cualquier persona interesada en el consumo de gas y su análisis.")
+    with st.container():
+        st.markdown("""
+        Esta aplicación está diseñada para ayudar a los usuarios a explorar y analizar datos relacionados con el consumo de gas.  
+        Utiliza el menú de la barra lateral para navegar entre las diferentes secciones de la aplicación.
+        """)
+
+    st.markdown("---")  # Separador visual
+
+    with st.container():
+        st.markdown("""
+        **ConGas IA** es una aplicación que permite a los usuarios explorar y analizar datos relacionados con el consumo de gas.  
+        La aplicación ofrece una interfaz intuitiva y fácil de usar, lo que facilita la navegación y la comprensión de los datos.  
+        Los usuarios pueden seleccionar diferentes clientes, rangos de fechas y valores de interés para obtener información detallada sobre el consumo de gas.  
+        La aplicación también incluye gráficos interactivos y visualizaciones para ayudar a los usuarios a comprender mejor los datos.  
+        **ConGas IA** es una herramienta valiosa para cualquier persona interesada en el consumo de gas y su análisis.
+        """)
