@@ -8,7 +8,7 @@ Este anexo contiene la documentación técnica, evidencias de pruebas y los arte
 
 ### 📊 Diagrama esquemático
 
-- Ubicación: [`diagrama_arquitectura.png`](./diagrama_arquitectura.png)
+- Ubicación: [`diagrama_arquitectura.png`](./Diagrama_Arquitectura.pdf)
 - Muestra los componentes técnicos del sistema: ingestión de datos, procesamiento, modelos y visualización.
 
 ### 📄 Reporte técnico de experimentos
