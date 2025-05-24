@@ -11,8 +11,9 @@ Esta carpeta contiene los materiales de presentación correspondientes a la entr
 - Descripción: Explica el problema de negocio, enfoque analítico, desarrollo del prototipo, validación de resultados y recomendaciones finales.
 
 ### 📑 Presentación en PDF
-- Archivo: `Presentación_Solución_Contugas.pdf`
+- 📄 [Presentación_Solución_Contugas.pdf](./Presentación_Solución_Contugas.pdf)
 - Descripción: Diapositivas utilizadas durante la exposición. Incluye resumen del contexto, metodología, resultados, métricas y conclusiones.
+
 
 ---
 
