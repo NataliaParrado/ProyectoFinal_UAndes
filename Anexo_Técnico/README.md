@@ -22,9 +22,8 @@ Este anexo contiene la documentación técnica, evidencias de pruebas y los arte
 - Refleja el cumplimiento de los criterios de evaluación definidos para el proyecto.
 
 ### 💻 Código fuente
-
-- Ubicación: [`codigo/`](./codigo/)
-- Contiene notebooks (`.ipynb`) y scripts utilizados para el entrenamiento y despliegue del modelo.
+- Ubicación: [`Anexo_Técnico/codigo/`](./Anexo_Técnico/codigo/)
+- Contiene notebooks (`.ipynb`) y scripts utilizados para el entrenamiento, validación y despliegue del modelo de detección de anomalías.
 
 ---
 
