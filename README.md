@@ -30,8 +30,8 @@ Este repositorio contiene el prototipo, la documentación técnica y el manual d
 
 ## 🚀 Pasos para comenzar
 
-1. Revisa el [manual de usuario](./Manual_Usuario/README.md).
-2. Ejecuta el prototipo desde [Prototipo](./Prototipo/README.md).
-3. Consulta el [anexo técnico](./Anexo_Técnico/README.md) para detalles de diseño, modelos y evaluación.
+1. Revisar el [manual de usuario](./Manual_Usuario/README.md).
+2. Ejecutar el prototipo desde [Prototipo](./Prototipo/README.md).
+3. Consultar el [anexo técnico](./Anexo_Técnico/README.md) para detalles de diseño, modelos y evaluación.
 
 ---
