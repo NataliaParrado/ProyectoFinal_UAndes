@@ -1,4 +1,4 @@
-# 🛠️ Anexo Técnico – Proyecto Contugas
+#  Anexo Técnico – Proyecto Contugas
 
 Este anexo contiene la documentación técnica, evidencias de pruebas y los artefactos desarrollados para implementar el sistema analítico de detección de anomalías.
 
