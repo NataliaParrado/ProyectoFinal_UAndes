@@ -13,7 +13,7 @@ Este anexo contiene la documentación técnica, evidencias de pruebas y los arte
 
 ### 📄 Reporte técnico de experimentos
 
-- Ubicación: [`reporte_experimentos.pdf`](./reporte_experimentos.pdf)
+- Ubicación: [`Reporte_Experimentos.pdf`](./Reporte_Experimentos.pdf)
 - Describe el proceso de validación de modelos, métricas de desempeño y criterios aplicados.
 
 ### 📋 Rúbrica de evaluación diligenciada
