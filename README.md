@@ -13,7 +13,7 @@ Este repositorio contiene el prototipo, la documentación técnica y el manual d
 
 ### 📘 Manual de Usuario
 - Ubicación: [`/Manual_Usuario`](./Manual_Usuario)
-- Incluye una guía clara para usuarios no técnicos:
+- Incluye una guía clara para usuarios:
   - Qué hace el sistema
   - Cómo acceder o instalar (en caso de ser local)
   - Casos de uso paso a paso (cargar datos, visualizar alertas, etc.)
