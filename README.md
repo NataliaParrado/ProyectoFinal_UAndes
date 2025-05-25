@@ -28,7 +28,7 @@ Este repositorio contiene el prototipo, la documentación técnica y el manual d
 
 ### 🎥 Presentación de la Solución
 - Incluye la presentación y el video en el siguiente enlace:  
-  [📂 Carpeta Presentación_Final](./Presentacion_Final)
+  [📂 Presentación_Final](./Presentacion_Final)
 ---
 
 ## 🚀 Pasos para comenzar
